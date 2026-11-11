@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26AF98B91459220E6F7FBE50 /* ChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5B0A04374901611965507 /* ChaptersView.swift */; };
+		2F963F804DD0FF957AACBDE2 /* ICloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C01EBBC3CD1FBA0418BB0F /* ICloudManager.swift */; };
+		46DB8272FB629CF114959CA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1A8DD6488001EAA32B1E0 /* HomeView.swift */; };
+		4BEE1BC2BC4956677CCF987D /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99758A351E2694A0C109B55 /* WatchApp.swift */; };
+		69B51FAC6D2A07D37C3DB2F5 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3DF7F9FE88B535CD46E7F /* Components.swift */; };
+		7073BF086B095563541D09BD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352ADE9D677D3EFC093BDCD1 /* Book.swift */; };
+		B4AAE57243860A49BE2D5EFB /* ICloudImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9072DDC16714E8769A13AEB /* ICloudImportView.swift */; };
+		B51EA2FC0A52C446DAA84669 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263C2FBC46037DF42922EA52 /* SettingsView.swift */; };
+		D3DF47AEB0B02283F76F1306 /* RSVPReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A796B3BB614418AA6912CF0C /* RSVPReaderView.swift */; };
+		F388F6D03AF24952BA922C90 /* TTSReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BFAD871F2EDBDEA9CE885C /* TTSReaderView.swift */; };
+		FA641A7C4DA645D4F16E8E4F /* ManualReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7704589A400AD08A15651 /* ManualReaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AF5B0A04374901611965507 /* ChaptersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersView.swift; sourceTree = "<group>"; };
+		263C2FBC46037DF42922EA52 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		352ADE9D677D3EFC093BDCD1 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3AC1A8DD6488001EAA32B1E0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7AC7704589A400AD08A15651 /* ManualReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualReaderView.swift; sourceTree = "<group>"; };
+		84F001B434E9C8E5B1C79502 /* LeitorWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeitorWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BFAD871F2EDBDEA9CE885C /* TTSReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSReaderView.swift; sourceTree = "<group>"; };
+		A796B3BB614418AA6912CF0C /* RSVPReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSVPReaderView.swift; sourceTree = "<group>"; };
+		A9072DDC16714E8769A13AEB /* ICloudImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICloudImportView.swift; sourceTree = "<group>"; };
+		B1D3DF7F9FE88B535CD46E7F /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		B99758A351E2694A0C109B55 /* WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
+		E4C01EBBC3CD1FBA0418BB0F /* ICloudManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICloudManager.swift; sourceTree = "<group>"; };
+		EA2B444B3068923C2ED77F8B /* LeitorWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeitorWatch.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		007BC7D49CBD6304CD383C67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA2B444B3068923C2ED77F8B /* LeitorWatch.entitlements */,
+				B99758A351E2694A0C109B55 /* WatchApp.swift */,
+				14C935AD67238AB179D57CFD /* Models */,
+				A1EB9DB599AE2CDC1C41E1AC /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		14C935AD67238AB179D57CFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				352ADE9D677D3EFC093BDCD1 /* Book.swift */,
+				E4C01EBBC3CD1FBA0418BB0F /* ICloudManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65C453F09E63FE23CAF89BEB = {
+			isa = PBXGroup;
+			children = (
+				007BC7D49CBD6304CD383C67 /* Sources */,
+				DDE661AC9F87928ACD302B5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EB9DB599AE2CDC1C41E1AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AF5B0A04374901611965507 /* ChaptersView.swift */,
+				B1D3DF7F9FE88B535CD46E7F /* Components.swift */,
+				3AC1A8DD6488001EAA32B1E0 /* HomeView.swift */,
+				A9072DDC16714E8769A13AEB /* ICloudImportView.swift */,
+				7AC7704589A400AD08A15651 /* ManualReaderView.swift */,
+				A796B3BB614418AA6912CF0C /* RSVPReaderView.swift */,
+				263C2FBC46037DF42922EA52 /* SettingsView.swift */,
+				A1BFAD871F2EDBDEA9CE885C /* TTSReaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDE661AC9F87928ACD302B5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F001B434E9C8E5B1C79502 /* LeitorWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D637C7DA9E9BDD20BC8E506 /* LeitorWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C366C734E60C04325373BA6 /* Build configuration list for PBXNativeTarget "LeitorWatch" */;
+			buildPhases = (
+				94581919590FB1731178D46E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeitorWatch;
+			packageProductDependencies = (
+			);
+			productName = LeitorWatch;
+			productReference = 84F001B434E9C8E5B1C79502 /* LeitorWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EF3CA45B50F4F39114ADCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 3663A01B5EA156289492D07B /* Build configuration list for PBXProject "LeitorWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 65C453F09E63FE23CAF89BEB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDE661AC9F87928ACD302B5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D637C7DA9E9BDD20BC8E506 /* LeitorWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94581919590FB1731178D46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7073BF086B095563541D09BD /* Book.swift in Sources */,
+				26AF98B91459220E6F7FBE50 /* ChaptersView.swift in Sources */,
+				69B51FAC6D2A07D37C3DB2F5 /* Components.swift in Sources */,
+				46DB8272FB629CF114959CA3 /* HomeView.swift in Sources */,
+				B4AAE57243860A49BE2D5EFB /* ICloudImportView.swift in Sources */,
+				2F963F804DD0FF957AACBDE2 /* ICloudManager.swift in Sources */,
+				FA641A7C4DA645D4F16E8E4F /* ManualReaderView.swift in Sources */,
+				D3DF47AEB0B02283F76F1306 /* RSVPReaderView.swift in Sources */,
+				B51EA2FC0A52C446DAA84669 /* SettingsView.swift in Sources */,
+				F388F6D03AF24952BA922C90 /* TTSReaderView.swift in Sources */,
+				4BEE1BC2BC4956677CCF987D /* WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41E9C8868F80D4C8788598AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C2E9FFC8BC1B8D3EBA34FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		715BE2AAACA5E85C90E32FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/LeitorWatch.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayson.leitorwatch.LeitorWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		DE32D1E611D8A511E69407BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/LeitorWatch.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayson.leitorwatch.LeitorWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C366C734E60C04325373BA6 /* Build configuration list for PBXNativeTarget "LeitorWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE32D1E611D8A511E69407BD /* Debug */,
+				715BE2AAACA5E85C90E32FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3663A01B5EA156289492D07B /* Build configuration list for PBXProject "LeitorWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E9C8868F80D4C8788598AF /* Debug */,
+				4C2E9FFC8BC1B8D3EBA34FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EF3CA45B50F4F39114ADCE /* Project object */;
+}
