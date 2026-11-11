@@ -10,6 +10,18 @@ Um leitor de livros para o Apple Watch: importa o arquivo do iCloud Drive e ofer
 - **Projeto declarativo**: `project.yml` (xcodegen) é a fonte da verdade do `.xcodeproj`.
 - ~1.800 linhas de Swift/SwiftUI em 10 arquivos.
 
+## Telas
+
+Executado no simulador de watchOS 26.5 (build com as correções descritas no commit de fix):
+
+| Tela | Leitura RSVP | Leitura manual |
+|---|---|---|
+| ![Tela inicial](docs/screenshots/home.png) | ![Leitura RSVP](docs/screenshots/rsvp.png) | ![Leitura manual](docs/screenshots/manual.png) |
+
+| Leitura por voz | Opções do livro | Ajustes |
+|---|---|---|
+| ![Leitura por voz](docs/screenshots/tts.png) | ![Opções do livro](docs/screenshots/opcoes.png) | ![Ajustes](docs/screenshots/ajustes.png) |
+
 ## Como rodar
 
 ```bash
