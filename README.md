@@ -19,8 +19,7 @@ open LeitorWatch.xcodeproj
 # para iCloud de verdade, use uma conta com o container configurado
 ```
 
-## Status honesto
-
+## Status
 Projeto pessoal de estudo (watchOS only, SwiftUI). Roda no simulador; a importação do iCloud requer provisionamento com a sua conta de desenvolvedor. **Não publicado na App Store.**
 
 Stack: Swift, SwiftUI, AVFoundation (TTS), iCloud Documents, xcodegen.
